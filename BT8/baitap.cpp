@@ -91,10 +91,13 @@ int main()
         }
         socong=0;
     }
+    cau.open ("OUT.txt",ios::out);
     for (int i=1;i<=q;i++)
     {
         cout << bang[vitri[i][1]][vitri[i][2]]<< endl;
+        cau << bang[vitri[i][1]][vitri[i][2]]<< "\n";
     }
+    cau.close();
     //Xem bang sau khi thuc hien thao tac
     /*for (int i=1;i<=n;i++)
     {
