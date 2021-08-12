@@ -224,15 +224,15 @@ int main()
             distance.clear();
         }
         //==========PRINT==============
-        for (int b=0;b<sapxep.size();++b)
-        {
-            for (int a=0;a<sapxep[b].size();++a)
-            {
-                cout << sapxep[b][a] << " ";
-            }
-            cout << endl;
-        }
-        cout << endl;
+        // for (int b=0;b<sapxep.size();++b)
+        // {
+        //     for (int a=0;a<sapxep[b].size();++a)
+        //     {
+        //         cout << sapxep[b][a] << " ";
+        //     }
+        //     cout << endl;
+        // }
+        // cout << endl;
         // for (int b=0;b<so.size();++b)
         // {
         //     for (int a=0;a<so[b].size();++a)
@@ -307,6 +307,9 @@ int main()
             minDistanceOfRow = temp_i;
         }
     }
-    cout << endl << minDistanceOfRow ;
+    cout << minDistanceOfRow ;
+    cau.open ("OUT.txt",ios::out);
+    cau << minDistanceOfRow;
+    cau.close();
     return 0;
 }
