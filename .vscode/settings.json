@@ -8,7 +8,8 @@
         "vector": "cpp",
         "array": "cpp",
         "unordered_map": "cpp",
-        "initializer_list": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
+        "initializer_list": "cpp",
+        "iterator": "cpp"
+    },/*,
+    "C_Cpp.errorSquiggles": "Disabled"*/
 }
